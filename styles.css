@@ -12,22 +12,4 @@ body{
   color: #63666a;
 }
 
-header:: after {
-  content: '';
-  display: table;
-  clear: both;
-}
 
-.logo {
-  float: left;
-}
-
-nav {
-  float: right;
-}
-
-nav ul {
-      padding-left: 80px;
-      padding-right: 80px;
-      list-style: none;
-}
