@@ -4,3 +4,9 @@ body{
   background: #222;
   color: #63666a;
 }
+
+.content {
+      max-width: 960px;
+      padding-left: 80px;
+      padding-right: 80px;
+}
