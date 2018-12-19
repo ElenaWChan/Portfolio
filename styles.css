@@ -1,13 +1,13 @@
-body{
-  font-family: 'Montserrat, sans-serif';
-  font-weight: 300;
-  color: #63666a;
-}
-
 .content {
       max-width: 960px;
       padding-left: 80px;
       padding-right: 80px;
+}
+
+body{
+  font-family: 'Montserrat, sans-serif';
+  font-weight: 300;
+  color: #63666a;
 }
 
 header:: after {
