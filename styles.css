@@ -9,7 +9,8 @@ body{
   src: url("https://fonts.googleapis.com/css?family=Montserrat:300,500");
   font-weight: 300;
   color: #63666a;
-  padding: 80px;
+  padding: 30px;
+  margin-top: 80px;
 }
 
 .navbar-header{
