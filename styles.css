@@ -11,12 +11,13 @@ body{
   color: #63666a;
   padding: 30px;
   margin-top: 80px;
+  margin-left: 8%;
 }
 
 .navbar-header{
       background-color: white;
-      margin: 20px;
-      padding: 10px;
+      margin-left: 8%;
+      margin-right: 8%;
       display: inline;
 }
 
