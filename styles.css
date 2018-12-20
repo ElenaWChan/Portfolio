@@ -15,9 +15,9 @@ body{
 
 .navbar-header{
       background-color: white;
-      font-size: 18px;
-      margin-top: 20px;
-      padding-bottom: 10px;
+      border: 0;
+            margin-top: 20px;
+            padding-bottom: 10px;
       display: inline;
 }
 
