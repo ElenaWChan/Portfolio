@@ -11,15 +11,44 @@ body{
   margin-left: 8%;
 }
 
-.navbar-header{
+/*.navbar-header{
       background-color: white;
       margin-left: 8%;
       margin-right: 8%;
       padding: 80px;
       display: inline;
+}*/
+
+.navbar-header{
+      position: absolute;
+      right: 0;
+      ul {
+            li {
+                  float: left;
+                  a {
+                        display: block;
+                        padding: 0 10px;
+                  }
+            }
+      }
 }
 
 header {
+      z-index: 2;
+      position: fixed;
+      width: 100%;
+      height: 60px;
+      line-height: 60px;
+      
+      h1 {
+            position: absolute;
+            top: 0;
+            left: 0;
+      }
+}
+           
+
+/* header {
       background-color: white;
       top: 0;
       left: 0;
@@ -41,5 +70,5 @@ header li {
       margin: 20px;
       padding: 30px;
 }
-
+*/
 
