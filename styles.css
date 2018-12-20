@@ -34,10 +34,11 @@ header {
       right: 0;
       height: 80px;
       display: flex;
+      align-items: center;
 }
 
 header * {
-      display:inline;
+      display: inline;
 }
 
 .logo{
