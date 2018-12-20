@@ -37,6 +37,10 @@ header * {
       display: inline;
 }
 
+header li {
+      margin: 30px;
+}
+
 .logo{
       margin: 20px;
       padding-left: 80px;
