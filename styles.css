@@ -12,10 +12,13 @@ body{
   color: #63666a;
 }
 
+.navbar-header{
+      margin-top: 20px;
+}
+
 .logo{
       padding-left: 80px;
-      padding-top: 100px;
-      margin-top: 90px;
+      margin-top: 20px;
 }
 
 
