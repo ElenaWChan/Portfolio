@@ -2,7 +2,7 @@
       max-width: 960px;
       padding-left: 80px;
       padding-right: 80px;
-      margin: 90;
+      margin: 90px;
 }
 
 body{
@@ -14,7 +14,8 @@ body{
 
 .logo{
       padding-left: 80px;
-      margin: 90;
+      padding-top: 100px;
+      margin-top: 90px;
 }
 
 
