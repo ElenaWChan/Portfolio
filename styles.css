@@ -21,6 +21,7 @@ body{
 
 .main-nav {
       list-style-type: none;
+      display: inline;
 }
 
 .navlinks,
