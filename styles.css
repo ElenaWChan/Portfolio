@@ -12,9 +12,16 @@ body{
 }
 
 .navbar-header{
+      font-size: 18px;
       margin-top: 20px;
+      padding-bottom: 10px;
 }
 
+.main-nav {
+      list-style-type: none;
+}
+
+.navlinks,
 .logo{
       padding-left: 80px;
       padding-right: 80px;
