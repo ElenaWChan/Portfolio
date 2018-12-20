@@ -16,13 +16,10 @@ body{
       margin-top: 20px;
 }
 
-.navbar-header .navbar-logo{
-      padding-left: 80px;
-}
-
 .logo{
       padding-left: 80px;
-      margin-top: 20px;
+      padding-right: 80px;
+      margin: 90px;
 }
 
 
