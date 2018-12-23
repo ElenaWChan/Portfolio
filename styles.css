@@ -13,9 +13,9 @@ body{
 
 .navbar-header{
       background-color: white;
-      /*margin-left: 8%;
+      margin-left: 8%;
       margin-right: 8%;
-      padding: 80px;*/
+      padding: 80px;
       display: inline;
 }
            
@@ -34,11 +34,11 @@ header * {
 }
 
 header li {
-      /*margin: 30px;*/
+      margin: 30px;
 }
 
 .logo{
-      /*margin: 20px;
-      padding: 30px;*/
+      margin: 20px;
+      padding: 30px;
 }
 
