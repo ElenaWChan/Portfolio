@@ -18,17 +18,6 @@ body{
   padding: 0;
 }
 
-body {
-  background: rgb(250, 250, 250) url(http://lorempixel.com/1920/1080/nature/);
-  font-family: Lato, Helvetica, Arial, sans-serif;
-}
-
-a {
-  color: inherit;
-  font-family: inherit;
-  font-size: inherit;
-  text-decoration: none;
-}
 
 
 /*======================================================
@@ -118,40 +107,6 @@ a {
   -webkit-transition: all 1s ease;
 }
 
-/* Animated Bottom Line */
-#navbar li a:before, #navbar li a:after {
-  content: '';
-  position: absolute;
-  width: 0%;
-  height: 1px;
-  bottom: -1px;
-  background: rgb(13, 26, 38);
-}
-
-#navbar li a:before {
-  left: 0;
-  transition: 0.5s;
-}
-
-#navbar li a:after {
-  background: rgb(13, 26, 38);
-  right: 0;
-  /* transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1); */
-}
-
-#navbar li a:hover:before {
-  background: rgb(13, 26, 38);
-  width: 100%;
-  transition: width 0.5s cubic-bezier((0.22, 0.61, 0.36, 1));
-}
-
-#navbar li a:hover:after {
-  background: transparent;
-  width: 100%;
-  /* transition: 0s; */
-}
-
-
 
 /*======================================================
                     Mobile Menu Menu Icon
@@ -208,55 +163,6 @@ a {
     -webkit-transition: 0.3s width 0.4s;
     transition: 0.3s width 0.4s;
   }
-
-  /* Bars Shadows */
-  .icon-bars.overlay {
-    background: rgb(97, 114, 129);
-    background: rgb(183, 199, 211);
-    width: 20px;
-    animation: middleBar 3s infinite 0.5s;
-    -webkit-animation: middleBar 3s infinite 0.5s;
-  } @keyframes middleBar {
-      0% {width: 0px}
-      50% {width: 20px}
-      100% {width: 0px}
-    } @-webkit-keyframes middleBar {
-        0% {width: 0px}
-        50% {width: 20px}
-        100% {width: 0px}
-      }
-
-  .icon-bars.overlay::before {
-    background: rgb(97, 114, 129);
-    background: rgb(183, 199, 211);
-    width: 10px;
-    animation: topBar 3s infinite 0.2s;
-    -webkit-animation: topBar 3s infinite 0s;
-  } @keyframes topBar {
-      0% {width: 0px}
-      50% {width: 10px}
-      100% {width: 0px}
-    } @-webkit-keyframes topBar {
-        0% {width: 0px}
-        50% {width: 10px}
-        100% {width: 0px}
-      }
-
-  .icon-bars.overlay::after {
-    background: rgb(97, 114, 129);
-    background: rgb(183, 199, 211);
-    width: 15px;
-    animation: bottomBar 3s infinite 1s;
-    -webkit-animation: bottomBar 3s infinite 1s;
-  } @keyframes bottomBar {
-      0% {width: 0px}
-      50% {width: 15px}
-      100% {width: 0px}
-    } @-webkit-keyframes bottomBar {
-        0% {width: 0px}
-        50% {width: 15px}
-        100% {width: 0px}
-      }
 
 
   /* Toggle Menu Icon */
